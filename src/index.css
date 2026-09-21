@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy-950: #021024;
+  --color-navy-900: #052659;
+  --color-blue-600: #5483B3;
+  --color-blue-400: #7DA0CA;
+  --color-ice-100: #C1E8FF;
+  --color-ice-50: #F0F7FD;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background-color: #F4F9FD;
+  color: #021024;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .display-heading {
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.container-wide {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* Site header height variable used to offset fixed header from page content */
+:root {
+  --site-header-height: 120px; /* fallback, overridden by Navbar when measured */
+}
+/* Frosted glass surfaces */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(193, 232, 255, 0.5);
+}
+
+.glass-nav-dark {
+  background: rgba(2, 16, 36, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(84, 131, 179, 0.25);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(193, 232, 255, 0.6);
+  box-shadow: 0 10px 30px -5px rgba(5, 38, 89, 0.07);
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 1.25rem;
+  border: 1px solid #E2EDF6;
+  box-shadow: 0 8px 30px rgba(2, 16, 36, 0.05);
+  padding: 1.75rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover {
+  border-color: #7DA0CA;
+  box-shadow: 0 14px 36px -4px rgba(84, 131, 179, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #052659 0%, #021024 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 16px rgba(5, 38, 89, 0.28);
+  transition: all 0.2s ease;
+  border: 1px solid rgba(193, 232, 255, 0.2);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #113567 0%, #052659 100%);
+  box-shadow: 0 6px 22px rgba(5, 38, 89, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-ice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #C1E8FF 0%, #9ec1e8 100%);
+  color: #021024;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 18px rgba(125, 160, 202, 0.35);
+  transition: all 0.2s ease;
+}
+
+.btn-ice:hover {
+  background: linear-gradient(135deg, #d4f0ff 0%, #b8dcfa 100%);
+  box-shadow: 0 6px 24px rgba(193, 232, 255, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid #C1E8FF;
+  background: #FFFFFF;
+  color: #052659;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.btn-ghost:hover {
+  background: #F0F7FD;
+  border-color: #7DA0CA;
+  color: #021024;
+}
+
+.btn-dark-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(193, 232, 255, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.btn-dark-ghost:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: #C1E8FF;
+  color: #C1E8FF;
+}
+
+.badge-ice {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: rgba(193, 232, 255, 0.35);
+  border: 1px solid rgba(84, 131, 179, 0.3);
+  color: #052659;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-emergency {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.muted {
+  color: #4A5E73;
+}
+
+/* Floating frost orbs for background ambiance */
+.frost-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Pulse animation for 24/7 emergency badge */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.15); }
+}
+
+.pulse-animation {
+  animation: pulse-dot 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+

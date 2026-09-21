@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="coldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C1E8FF"/>
+      <stop offset="50%" stop-color="#5483B3"/>
+      <stop offset="100%" stop-color="#052659"/>
+    </linearGradient>
+    <linearGradient id="iceShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5483B3"/>
+      <stop offset="100%" stop-color="#C1E8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Snowflake / Airflow Cooling Emblem -->
+  <g transform="translate(6, 6)">
+    <!-- Outer hexagonal crystal ring -->
+    <rect x="2" y="2" width="44" height="44" rx="14" fill="#052659" />
+    <rect x="2" y="2" width="44" height="44" rx="14" stroke="#C1E8FF" stroke-width="1.5" stroke-opacity="0.6"/>
+    
+    <!-- Central Snowflake & Flow -->
+    <path d="M24 10 V38 M10 24 H38 M14 14 L34 34 M14 34 L34 14" stroke="#C1E8FF" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="3.5" fill="#C1E8FF"/>
+    <circle cx="24" cy="11" r="1.5" fill="#7DA0CA"/>
+    <circle cx="24" cy="37" r="1.5" fill="#7DA0CA"/>
+    <circle cx="11" cy="24" r="1.5" fill="#7DA0CA"/>
+    <circle cx="37" cy="24" r="1.5" fill="#7DA0CA"/>
+    
+    <!-- Subtle electrical flash spark indicator -->
+    <path d="M33 13 L30 18 H35 L32 23" stroke="#C1E8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="62" y="32" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-weight="900" font-size="24" fill="#021024" letter-spacing="-0.03em">
+    COLD <tspan fill="#5483B3">AC</tspan>
+  </text>
+  <text x="63" y="46" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="9" fill="#7DA0CA" letter-spacing="0.16em">
+    HVAC &amp; ELECTRICAL
+  </text>
+</svg>
