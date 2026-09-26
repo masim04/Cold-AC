@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:5173/</loc>
+    <loc>https://coldac.org/</loc>
   </url>
   <url>
-    <loc>http://localhost:5173/about</loc>
+    <loc>https://coldac.org/about</loc>
   </url>
   <url>
-    <loc>http://localhost:5173/services</loc>
+    <loc>https://coldac.org/services</loc>
   </url>
   <url>
-    <loc>http://localhost:5173/gallery</loc>
+    <loc>https://coldac.org/gallery</loc>
   </url>
   <url>
-    <loc>http://localhost:5173/contact</loc>
+    <loc>https://coldac.org/contact</loc>
   </url>
 </urlset>

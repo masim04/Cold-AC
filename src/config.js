@@ -229,6 +229,15 @@ export const SOCIAL = {
   phone: BUSINESS.phone
 }
 
+import image1 from './assets/1.jpg'
+import image2 from './assets/2.jpg'
+import image3 from './assets/3.jpg'
+import image4 from './assets/4.jpg'
+import image5 from './assets/5.jpg'
+import image6 from './assets/6.jpg'
+import image7 from './assets/7.jpg'
+import image8 from './assets/8.jpg'
+
 export const HERO = {
   badge: '46 Years Serving Baker & Greater Baton Rouge',
   title: '46 Years of Trusted HVAC & Electrical Excellence.',
@@ -238,45 +247,59 @@ export const HERO = {
 
 export const GALLERY_IMAGES = [
   {
-    src: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Technician installing high-efficiency condenser',
+    src: image1,
+    alt: 'AC condenser and attic installation work',
     category: 'installation',
     title: 'AC Condenser Replacement',
     location: 'Baker, LA'
   },
   {
-    src: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Commercial electrical service panel upgrade',
+    src: image2,
+    alt: 'Electrical panel upgrade in attic mechanical room',
     category: 'electrical',
     title: '200A Electrical Panel Upgrade',
     location: 'Baton Rouge, LA'
   },
   {
-    src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Precision diagnostic testing with digital manifold',
+    src: image3,
+    alt: 'Residential HVAC unit in attic',
     category: 'repair',
     title: 'Emergency AC Diagnostic & Repair',
     location: 'Zachary, LA'
   },
   {
-    src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Modern residential heat pump system installation',
+    src: image4,
+    alt: 'Heat pump installation in a tight attic space',
     category: 'installation',
     title: 'Dual-Fuel Heat Pump Installation',
     location: 'Central, LA'
   },
   {
-    src: 'https://images.unsplash.com/photo-1581091012184-7e3d8a0a5d6b?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Ductwork inspection and airflow balancing',
+    src: image5,
+    alt: 'Airflow and ductwork work in an attic',
     category: 'quality',
     title: 'Duct Sealing & IAQ Purification',
     location: 'Denham Springs, LA'
   },
   {
-    src: 'https://images.unsplash.com/photo-1556761175-129418cb2dfe?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Commercial HVAC package unit maintenance',
+    src: image6,
+    alt: 'Commercial HVAC package unit in a service area',
     category: 'commercial',
     title: 'Commercial RTU Seasonal Tune-Up',
     location: 'Gonzales, LA'
+  },
+  {
+    src: image7,
+    alt: 'HVAC equipment install in an attic',
+    category: 'installation',
+    title: 'Residential HVAC Installation',
+    location: 'Port Allen, LA'
+  },
+  {
+    src: image8,
+    alt: 'Service call on an aging air conditioning unit',
+    category: 'repair',
+    title: 'System Repair & Performance Check',
+    location: 'East Baton Rouge Parish, LA'
   }
 ]
