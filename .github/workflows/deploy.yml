@@ -32,4 +32,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           timeout: 120000
           local-dir: ./dist/ 
-          server-dir: /clients/contrators/coldac.org/ # ⚠️ Adjust this to match your specific web root on the FTP server
+          server-dir: /clients/contractors/coldac.org/ # ⚠️ Adjust this to match your specific web root on the FTP server
